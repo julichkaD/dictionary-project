@@ -1,5 +1,6 @@
 import "./App.css";
 import Dictionary from "./Dictionary";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -8,10 +9,7 @@ function App() {
         <Dictionary />
       </header>
       <main></main>
-      <footer>
-        The Project was created by Julia Darwish, open-soursed on GitHub and
-        hosted on Netlify{" "}
-      </footer>
+     <Footer />
     </div>
   );
 }
