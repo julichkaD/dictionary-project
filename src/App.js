@@ -5,11 +5,12 @@ import Footer from "./Footer";
 function App() {
   return (
     <div className="App">
-      <header>
+      <header>HELLO THERE!! </header>
+      <main>
         <Dictionary />
-      </header>
-      <main></main>
-     <Footer />
+      </main>
+
+      <Footer />
     </div>
   );
 }
