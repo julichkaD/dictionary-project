@@ -23,11 +23,19 @@ function Dictionary() {
   }
   return (
     <div className="Dictionary">
-      <form onSubmit={search}>
-        <input type="search" onChange={handleKeywordChange} />
-        <button type="submit">Search</button>
-        <Results results={results} />
-      </form>
+      <section>
+        <form onSubmit={search}>
+          <input
+            type="search"
+            onChange={handleKeywordChange}
+            cols="30"
+            rows="10"
+          />
+          <button type="submit">Search</button>
+        </form>
+        <div className="hint">suggested words: sunset, wine, vacation..</div>
+      </section>
+      <Results results={results} />
     </div>
   );
 }
