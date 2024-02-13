@@ -29,6 +29,10 @@ input {
   border-radius: 6px;
   border: 1px solid;
 }
+.react-switch {
+  margin-top: 20px 
+  
+}
 button {
   padding: 8px 6px;
   width: 15%;
@@ -40,10 +44,11 @@ button {
 }
 footer {
   font-family: "Courier New", Courier, monospace;
-  font-size: 18px;
-  margin-top: 30px;
+  font-size: 20px;
+  margin-top: 40px;
+  color: #49a5ff;
 }
-footer a{
+footer a {
   text-decoration: none;
 }
 .hint {
@@ -51,15 +56,22 @@ footer a{
   font-size: 12px;
   margin-top: 5px;
 }
+.Results h2 {
+  color: #49a5ff;
+  font-size: 40px;
+  letter-spacing: 3px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
 
 @media (max-width: 750px) {
-  header{
+  header {
     font-size: 28px;
   }
   button {
     display: none;
   }
-  footer{
+  footer {
     display: none;
   }
 }
