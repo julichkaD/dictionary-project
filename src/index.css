@@ -3,6 +3,7 @@ body {
   justify-content: center;
   background-color: rgb(223, 234, 247);
 }
+
 header {
   text-align: center;
   font-size: 40px;
@@ -19,21 +20,39 @@ section {
   background-color: white;
   padding: 30px;
   border-radius: 12px;
-  margin: 20px;
+  margin: 20px 0;
   box-shadow: 0 10px 10px rgb(0 0 0 /10%);
 }
 input {
-  width: 80%;
-  padding: 8px 6px;
+  width: 100%;
+  padding: 10px 20px;
   letter-spacing: 2px;
   border-radius: 6px;
   border: 1px solid;
 }
-.react-switch {
-  margin-top: 20px 
-  
+.container {
+  max-width: 50%;
 }
-button {
+.react-switch {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.Photos img {
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+em {
+  font-size: 20px;
+}
+strong {
+  font-size: 20px;
+}
+.Meaning h3 {
+ color: #117ae2; 
+ font-size: 30px;
+}
+/* button {
   padding: 8px 6px;
   width: 15%;
   margin-left: 30px;
@@ -41,15 +60,20 @@ button {
   border: 1px solid #49a5ff;
   color: aliceblue;
   background-color: #49a5ff;
-}
+} */
 footer {
+  text-align: center;
   font-family: "Courier New", Courier, monospace;
   font-size: 20px;
-  margin-top: 40px;
+  margin: 40px 0;
   color: #49a5ff;
 }
 footer a {
   text-decoration: none;
+ 
+}
+footer a:hover{
+  color: #b1d5f9;
 }
 .hint {
   opacity: 0.5;
