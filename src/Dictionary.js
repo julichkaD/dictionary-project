@@ -6,16 +6,27 @@ function Dictionary() {
   let [keyword, setKeyword] = useState("");
   let [results, setResults] = useState(null);
 
-  function handleResponse(response) {
+  function handleDictionaryResponse(response) {
     setResults(response.data[0]);
   }
-
+  function handlePexelResponse(response) {
+    console.log(response);
+  }
   function search(event) {
     event.preventDefault();
 
     // documentation: https://dictionaryapi.dev/e
     let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en_US/${keyword}`;
-    axios.get(apiUrl).then(handleResponse);
+    axios.get(apiUrl).then(handleDictionaryResponse);
+    //documentation: https://www.pexels.com/
+    let pexelsApiKey =
+      "vsBNNQJRg0HhErlsJXgAMFjpEEW70aYKWVDFOJOWXEjmxellsWukeEuE";
+    let pexelsApiUrl = `https://api.pexels.com/v1/search?query=${keyword}&per_page=1`;
+    axios
+      .get(pexelsApiUrl, {
+        headers: { Authorization: `Bearer ${pexelsApiKey}` },
+      })
+      .then(handlePexelResponse);
   }
 
   function handleKeywordChange(event) {
