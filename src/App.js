@@ -6,14 +6,16 @@ import MySwitch from "./MySwitch";
 function App() {
   return (
     <div>
-      <MySwitch />
-      <header>
-        <img src={Icon} alt="Dictionary" width={80} height={80} />
-        <span>DICTIONARY</span>
-      </header>
-      <main>
-        <Dictionary />
-      </main>
+      <div className="container">
+        <MySwitch />
+        <header>
+          <img src={Icon} alt="Dictionary" width={80} height={80} />
+          <span>DICTIONARY</span>
+        </header>
+        <main>
+          <Dictionary />
+        </main>
+      </div>
       <Footer />
     </div>
   );
