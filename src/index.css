@@ -30,6 +30,27 @@ input {
   border-radius: 6px;
   border: 1px solid;
 }
+em {
+  font-size: 20px;
+}
+strong {
+  font-size: 20px;
+}
+
+footer {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  margin: 40px 0;
+  color: #49a5ff;
+}
+footer a {
+  text-decoration: none;
+   color: #49a5ff;
+}
+footer a:hover {
+  color: #b1d5f9;
+}
 .container {
   max-width: 50%;
 }
@@ -42,38 +63,15 @@ input {
   border-radius: 4px;
   margin-bottom: 20px;
 }
-em {
-  font-size: 20px;
-}
-strong {
-  font-size: 20px;
-}
+
 .Meaning h3 {
- color: #117ae2; 
- font-size: 30px;
+  color: #1b84ee;
+  font-size: 35px;
+  letter-spacing: 2px;
 }
-/* button {
-  padding: 8px 6px;
-  width: 15%;
-  margin-left: 30px;
-  border-radius: 6px;
-  border: 1px solid #49a5ff;
-  color: aliceblue;
-  background-color: #49a5ff;
-} */
-footer {
-  text-align: center;
-  font-family: "Courier New", Courier, monospace;
+.Meaning p {
   font-size: 20px;
-  margin: 40px 0;
-  color: #49a5ff;
-}
-footer a {
-  text-decoration: none;
- 
-}
-footer a:hover{
-  color: #b1d5f9;
+  
 }
 .hint {
   opacity: 0.5;
@@ -81,9 +79,9 @@ footer a:hover{
   margin-top: 5px;
 }
 .Results h2 {
-  color: #49a5ff;
+  color: #2b68a4;
   font-size: 40px;
-  letter-spacing: 3px;
+  letter-spacing: 4px;
   font-weight: 700;
   margin-bottom: 20px;
 }
