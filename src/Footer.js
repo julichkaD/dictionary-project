@@ -7,7 +7,7 @@ const Footer = () => {
       <a href="https://github.com/julichkaD" target="_blank" rel="noreferrer">
         Julia Darwish,{" "}
       </a>
-      open-soursed on{" "}
+      open-sourced on{" "}
       <a
         href="https://github.com/julichkaD/dictionary-project.git"
         target="_blank"
